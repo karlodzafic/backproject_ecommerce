@@ -1,0 +1,77 @@
+{% url 'home' as home_url %}
+{% url 'contact' as contact_url %}
+{% url 'products:list' as products_list_url %}
+{% url 'login' as login_url %}
+{% url 'register' as register_url %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+   <div class='container'>
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarCollapseLinks' aria-expanded='false' aria-label='Toggle Navigation'>
+        <span class='navbar-toggler-icon'></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="{%url 'home'%}">{% if brand_name %} {{brand_name}}{%else%}eCommerce{%endif%}</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item {% if request.path is home_url %} active {% endif %}">
+        <a class="nav-link" href="{{home_url}}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item{% if request.path is contact_url %} active {% endif %}">
+        <a class="nav-link" href="{{contact_url}}">Contact <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item {% if request.path is products_list__url %} active {% endif %}">
+        <a class="nav-link" href="{{products_list_url}}" tabindex="-1" aria-disabled="true">Products <span class="sr-only">(current)</span></a>
+      </li>
+      {% if request.user.is_authenticated %}
+       <li class="nav-item {% if request.path is login_url %} active {% endif %}">
+        <a class="nav-link" href="{{login_url}}" tabindex="-1" aria-disabled="true">Logout <span class="sr-only">(current)</span></a>
+      </li>
+      {% else %}
+       <li class="nav-item {% if request.path is login_url %} active {% endif %}">
+        <a class="nav-link" href="{{login_url}}" tabindex="-1" aria-disabled="true">Login <span class="sr-only">(current)</span></a>
+      </li>
+             <li class="nav-item {% if request.path is login_url %} active {% endif %}">
+        <a class="nav-link" href="{{register_url}}" tabindex="-1" aria-disabled="true">Register <span class="sr-only">(current)</span></a>
+      </li>
+      {% endif %}
+
+
+     <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+    </ul>
+  {% include 'search/snippets/search-form.html' %}
+
+  </div>
+</div>
+</nav>
