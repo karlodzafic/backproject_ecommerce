@@ -1,1 +1,70 @@
-.navbar-form.navbar-left{width:39%}.navbar-form .input-group:last-child{width:100%}#basic-addon1{width:40px}.navbar-form .input-group>.form-control{width:inherit}
+
+/* default */
+.navbar-form.navbar-left{width:39%}
+.navbar-form .input-group:last-child{width:100%}
+#basic-addon1{width:40px}
+.navbar-form .input-group>.form-control{width:inherit}
+
+
+
+/* SHOPPING CART-IKONA */
+
+/* okrugli broj */
+.okruglo {
+
+	border-radius: 50%;
+	color: black;
+	font-family: arial;
+	font-weight: 900;
+	font-size: 10px;
+}
+
+/* cart icona */
+	.cart-ikona {
+		font-size: 21px;
+	}
+
+
+
+ul.nav a{
+
+margin-bottom: 0;
+
+
+}
+
+/* HOVER */
+
+ /*boja za slova na navbaru */
+ul.nav a:hover { 
+	color: grey !important;
+	background-color: white;
+
+}   
+
+ /*boja za slova u dropdownu */
+div.dropdown-menu a:hover {
+	color: white !important;
+	background-color: grey;
+} 
+
+.nav ul {
+	margin: 0;
+}
+
+.navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.nav-item {
+	border: solid, black, 3px;
+	
+}
+
+
+html,body {
+margin: 0;
+padding:0;}
