@@ -1,0 +1,25 @@
+.navbar-form.navbar-left{width:39%}.navbar-form .input-group:last-child{width:100%}#basic-addon1{width:40px}.navbar-form .input-group>.form-control{width:inherit}
+
+
+
+
+
+/* za cart icon */
+
+/* okrugli broj */
+.okruglo {
+
+	border-radius: 50%;
+	color: black;
+	font-family: arial;
+	font-weight: 900;
+	font-size: 10px;
+
+}
+
+
+
+/* cart icona */
+	.cart-ikona {
+		font-size: 25px;
+}
