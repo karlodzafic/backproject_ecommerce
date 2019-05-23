@@ -128,3 +128,32 @@ margin-right: auto;
 	background-color: #f5f3f3;
 }
 
+.odmak-gore {
+	padding-top: 6rem;
+}
+.fiksna_duzina {
+    width: 9rem !important;
+}
+
+/*proizvod detalj*/
+
+.detalji {
+	font-size: 20px;
+}
+
+.detalji-tekst {
+	font-size: 14px;
+}
+
+.carousel-control-next {
+    filter: invert(100%);
+}
+
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.cijena {
+	color: red;
+	font-weight: bold;
+}
