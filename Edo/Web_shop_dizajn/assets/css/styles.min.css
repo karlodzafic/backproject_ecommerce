@@ -96,3 +96,39 @@ margin-right: auto;
 /* PRODUCTS PAGE TEMPLATE */
 
 
+.containera{
+  margin-top: 8%;
+}
+
+.inner{
+  overflow: hidden;
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+  transform: scale(1.1);
+}
+
+/* huawei */
+
+.inner-hu{
+  overflow: hidden;
+}
+
+.inner-hu img{
+  transition: all 1.5s ease;
+}
+
+.inner-hu:hover img{
+  transform: scale(1.5);
+}
+
+.divider{
+    width:15%;
+    height:auto;
+    display:inline-block;
+}
+
