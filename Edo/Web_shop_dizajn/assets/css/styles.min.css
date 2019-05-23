@@ -65,11 +65,12 @@ div.dropdown-menu a:hover {
 }
 
 
-html,body {
+html, body {
 margin: 0;
-padding:0;}
+padding:0;
+overflow-x: hidden;
 
-
+}
 
 .carousel-item {
   height: 65vh;
@@ -96,39 +97,60 @@ margin-right: auto;
 /* PRODUCTS PAGE TEMPLATE */
 
 
-.containera{
-  margin-top: 8%;
+/* Boja pozadine u futeru (crna) gdje piše  Tim BATMAN */
+
+.footer-copyright {
+	background-color: black !important;
 }
 
-.inner{
-  overflow: hidden;
+/* počinje odmah nakon <body> a završava ispod </footer> */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
-.inner img{
-  transition: all 1.5s ease;
+/* počinje odmah nakon <body> i  <div id="page-container"> a završava prije <footer> */
+#content-wrap {
+  padding-bottom: 28rem;    /* Footer height */
 }
 
-.inner:hover img{
-  transform: scale(1.1);
+#footer {
+  color: white !important;
+  background-color: #333333;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /*height:28rem;  Footer height (Ovaj dio ne treba)*/
 }
 
-/* huawei */
-
-.inner-hu{
-  overflow: hidden;
+#boja {
+	background-color: #f5f3f3;
 }
 
-.inner-hu img{
-  transition: all 1.5s ease;
+
+
+
+
+/*proizvod detalj*/
+
+.detalji {
+	font-size: 20px;
 }
 
-.inner-hu:hover img{
-  transform: scale(1.5);
+.detalji-tekst {
+	font-size: 14px;
 }
 
-.divider{
-    width:15%;
-    height:auto;
-    display:inline-block;
+.carousel-control-next {
+    filter: invert(100%);
 }
 
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.cijena {
+	color: red;
+	font-weight: bold;
+}
