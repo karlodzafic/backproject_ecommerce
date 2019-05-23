@@ -96,10 +96,11 @@ margin-right: auto;
 
 /* PRODUCTS PAGE TEMPLATE */
 
-}
+
 /* Boja pozadine u futeru (crna) gdje piše  Tim BATMAN */
+
 .footer-copyright {
-	background-color: black;
+	background-color: black !important;
 }
 
 /* počinje odmah nakon <body> a završava ispod </footer> */
