@@ -131,8 +131,14 @@ margin-right: auto;
 .odmak-gore {
 	padding-top: 6rem;
 }
+.odmak-gore2 {
+	padding-top: 4rem;
+}
 .fiksna_duzina {
     width: 9rem !important;
+}
+.fiksna_duzina2 {
+    width: 5rem !important;
 }
 
 /*proizvod detalj*/
@@ -157,3 +163,16 @@ margin-right: auto;
 	color: red;
 	font-weight: bold;
 }
+
+#pozadina-kartice {
+	background-image: url(../Slike/proba_pozadine.jpg);
+}
+
+ .pozadina2 {
+	background-color: white;
+	opacity: 0.5;
+	border-radius: 4px;
+	width: 90%;
+	margin: auto;
+	color: black;
+ }
