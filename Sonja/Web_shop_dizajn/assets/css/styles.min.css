@@ -68,9 +68,12 @@ div.dropdown-menu a:hover {
 html, body {
 margin: 0;
 padding:0;
-overflow-x: hidden;
 
 }
+body {
+overflow-x: hidden;
+}
+
 
 .carousel-item {
   height: 65vh;
@@ -137,6 +140,7 @@ margin-right: auto;
 .odmak-gore2 {
 	padding-top: 4rem;
 }
+
 .fiksna_duzina {
     width: 9rem !important;
 }
@@ -171,7 +175,7 @@ margin-right: auto;
 	background-image: url(../Slike/proba_pozadine.jpg);
 }
 #pozadina-kartice2 {
-	background-image: url(../Slike/proba_pozadine2.png);
+	background-image: url(../Slike/pozadina.png);
 	background-size: 100% 100%;
 }
 
@@ -183,3 +187,4 @@ margin-right: auto;
 	margin: auto;
 	color: black;
  }
+
