@@ -1,0 +1,165 @@
+
+/* default */
+.navbar-form.navbar-left{width:39%}
+.navbar-form .input-group:last-child{width:100%}
+#basic-addon1{width:40px}
+.navbar-form .input-group>.form-control{width:inherit}
+
+
+
+/* SHOPPING CART-IKONA */
+
+/* okrugli broj */
+.okruglo {
+
+	border-radius: 50%;
+	color: black;
+	font-family: arial;
+	font-weight: 900;
+	font-size: 10px;
+}
+
+/* cart icona */
+	.cart-ikona {
+		font-size: 21px;
+	}
+
+
+
+ul.nav a{
+
+margin-bottom: 0;
+
+
+}
+
+/* HOVER */
+
+ /*boja za slova na navbaru */
+ul.nav a:hover { 
+	color: grey !important;
+	background-color: white;
+
+}   
+
+ /*boja za slova u dropdownu */
+div.dropdown-menu a:hover {
+	color: white !important;
+	background-color: grey;
+} 
+
+.nav ul {
+	margin: 0;
+}
+
+.navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.nav-item {
+	border: solid, black, 3px;
+	
+}
+
+
+html, body {
+margin: 0;
+padding:0;
+overflow-x: hidden;
+
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 250px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+/*
+.velicina {
+height: 50%;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+*/
+
+
+
+
+/* PRODUCTS PAGE TEMPLATE */
+
+
+/* Boja pozadine u futeru (crna) gdje piše  Tim BATMAN */
+
+.footer-copyright {
+	background-color: black !important;
+}
+
+/* počinje odmah nakon <body> a završava ispod </footer> */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* počinje odmah nakon <body> i  <div id="page-container"> a završava prije <footer> */
+#content-wrap {
+  padding-bottom: 28rem;    /* Footer height */
+}
+
+#footer {
+  color: white !important;
+  background-color: #333333;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /*height:28rem;  Footer height (Ovaj dio ne treba)*/
+}
+
+#boja {
+	background-color: #f5f3f3;
+}
+
+
+
+
+
+/*proizvod detalj*/
+
+.detalji {
+	font-size: 20px;
+}
+
+.detalji-tekst {
+	font-size: 14px;
+}
+
+.carousel-control-next {
+    filter: invert(100%);
+}
+
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.cijena {
+	color: red;
+	font-weight: bold;
+}
+
+
+
+.fiksna_duzina {
+    width: 9rem !important;
+}
+.fiksna_duzina2 {
+    width: 5rem !important;
+}
