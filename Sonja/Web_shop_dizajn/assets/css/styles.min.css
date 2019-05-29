@@ -5,7 +5,59 @@
 #basic-addon1{width:40px}
 .navbar-form .input-group>.form-control{width:inherit}
 
+/* obrazac PRIJAVA - početak */
+.login-clean{
+	
+	padding:80px 0
+}
 
+.login-clean form{
+	max-width:320px;
+	width:90%;
+	margin:0 auto;
+	background-color:#fff;
+	padding:40px;
+	border-radius:4px;
+	color:#505e6c;
+	box-shadow:1px 1px 5px rgba(0,0,0,.1)
+}
+.login-clean .illustration{
+	text-align:center;
+	padding:0 0 20px;
+	font-size:100px;color:#f4476b
+	}
+
+.login-clean form .form-control{
+	background:#f7f9fc;
+	border:none;
+	border-bottom:1px solid #dfe7f1;
+	border-radius:0;box-shadow:none;
+	outline:0;
+	color:inherit;
+	text-indent:8px;
+	height:42px
+}
+
+.login-clean form .btn-primary{
+	background:#f4476b;
+	border:none;
+	border-radius:4px;
+	padding:11px;
+	box-shadow:none;
+	margin-top:26px;
+	text-shadow:none;
+	outline:0!important
+}
+.login-clean form .btn-primary:active,.login-clean form .btn-primary:hover{background:#eb3b60}
+.login-clean form .btn-primary:active{transform:translateY(1px)}
+.login-clean form .forgot{display:block;text-align:center;font-size:12px;color:#6f7a85;opacity:.9;text-decoration:none}
+.login-clean form .forgot:active,.login-clean form 
+.forgot:hover{opacity:1;text-decoration:none}
+
+.poravnanje {
+	text-align: center;
+}
+/* obrazac PRIJAVA - kraj */
 
 /* SHOPPING CART-IKONA */
 
@@ -20,17 +72,13 @@
 }
 
 /* cart icona */
-	.cart-ikona {
-		font-size: 21px;
-	}
-
+.cart-ikona {
+	font-size: 21px;
+}
 
 
 ul.nav a{
-
-margin-bottom: 0;
-
-
+	margin-bottom: 0;
 }
 
 /* HOVER */
@@ -64,7 +112,6 @@ div.dropdown-menu a:hover {
 	
 }
 
-
 html, body {
 margin: 0;
 padding:0;
@@ -74,7 +121,6 @@ body {
 overflow-x: hidden;
 }
 
-
 .carousel-item {
   height: 65vh;
   min-height: 250px;
@@ -83,18 +129,7 @@ overflow-x: hidden;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
-/*
-.velicina {
-height: 50%;
-width: 80%;
-margin-left: auto;
-margin-right: auto;
-}
-*/
-
-
 
 
 /* PRODUCTS PAGE TEMPLATE */
@@ -129,9 +164,6 @@ margin-right: auto;
 
 #boja {
 	background-color: #f5f3f3;
-}
-#boja2 {
-	background-color: #aec9ab;
 }
 
 .odmak-gore {
@@ -171,20 +203,30 @@ margin-right: auto;
 	font-weight: bold;
 }
 
-#pozadina-kartice {
-	background-image: url(../Slike/proba_pozadine.jpg);
-}
 #pozadina-kartice2 {
-	background-image: url(../Slike/pozadina.png);
+	background-image: url(../Slike/poz.png);
 	background-size: 100% 100%;
 }
-
+/* Pozadina ispod natpisa  kod formi za unos u prvom stupcu (npr. kod profil korisnika) */
  .pozadina2 {
 	background-color: white;
-	opacity: 0.5;
+	opacity: 0.7;
 	border-radius: 4px;
 	width: 90%;
 	margin: auto;
 	color: black;
  }
+ /* Pozadina ispod natpisa  kod formi za unos u drugom stupcu (npr. kod profil korisnika) */
+ .pozadina1{
+ 	background-color: #eff0f2;
+ }
 
+/* bijela unutarnja kartica - početak */
+.unutarnja-kartica{  
+    background-color:#fff;
+    width:70%;
+    padding:10px;
+    border-radius:4px;
+    margin:auto;
+}
+/* #/ bijela unutarnja kartica - kraj */

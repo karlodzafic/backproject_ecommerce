@@ -72,12 +72,12 @@
     </nav>
 
     <div class="odmak-gore"> <!-- Profil Korisnika  -->
-        <div id="pozadina-kartice" class="container card shadow " style="width: 70%; ">
+        <div id="pozadina-kartice2" class="container shadow " style="width: 70%; ">
 
                     <div class="row">
                         <div class="col odmak-gore"></div>
                     </div>
-
+  <div class="unutarnja-kartica shadow">  <!-- bijela unutarnja kartica - početak -->
     <div class="row m-y-2">
         <!-- edit form column -->
 
@@ -98,7 +98,7 @@
                     <div class="col-lg-2"></div>
                     <label class="col-lg-2 col-form-label form-control-label pozadina2"><b>Ime</b></label>                    
                     <div class="col-lg-8">
-                        <input class="form-control" name="ime" type="text" value="" placeholder="Vaše ime" />
+                        <input class="form-control pozadina1" name="ime" type="text" value="" placeholder="Vaše ime" />
                     </div>
                     
                 </div>
@@ -106,7 +106,7 @@
                      <div class="col-lg-2"></div>
                     <label class="col-lg-2 col-form-label form-control-label pozadina2"><b>Prezime</b></label>
                     <div class="col-lg-8">
-                        <input class="form-control" name="prezime" type="text" value="" placeholder="Vaše prezime" />
+                        <input class="form-control pozadina1" name="prezime" type="text" value="" placeholder="Vaše prezime" />
                     </div>
                   
                 </div>
@@ -114,7 +114,7 @@
                      <div class="col-lg-2"></div>
                     <label class="col-lg-2 col-form-label form-control-label pozadina2"><b>Email</b></label>
                     <div class="col-lg-8">
-                        <input class="form-control" name="email" type="email" value= "" placeholder="vas@email.com" />
+                        <input class="form-control pozadina1" name="email" type="email" value= "" placeholder="vas@email.com" />
                     </div>
                     
                 </div>
@@ -122,7 +122,7 @@
                      <div class="col-lg-2"></div>
                     <label class="col-lg-2 col-form-label form-control-label pozadina2"><b>Telefon</b></label>
                     <div class="col-lg-8">
-                        <input class="form-control" name="telefon" type="text" value="" placeholder="Vaš telefon" />
+                        <input class="form-control pozadina1" name="telefon" type="text" value="" placeholder="Vaš telefon" />
                     </div>
                     
                 </div>
@@ -130,7 +130,7 @@
                      <div class="col-lg-2"></div>
                     <label class="col-lg-2 col-form-label form-control-label pozadina2"><b>Adresa</b></label>
                     <div class="col-lg-8">
-                        <input class="form-control" name="adresa" type="text" value="" placeholder="Ulica i kućni broj" />
+                        <input class="form-control pozadina1" name="adresa" type="text" value="" placeholder="Ulica i kućni broj" />
                     </div>
                      
                 </div>
@@ -138,13 +138,13 @@
                      <div class="col-lg-2"></div>
                     <label class="col-lg-2 col-form-label form-control-label"></label>
                     <div class="col-lg-2">
-                        <input class="form-control" name="ptt" type="text" value="" placeholder="Poštanski broj" />
+                        <input class="form-control pozadina1" name="ptt" type="text" value="" placeholder="Poštanski broj" />
                     </div>
                     <div class="col-lg-3">
-                        <input class="form-control" name="grad" type="text" value="" placeholder="Grad" />
+                        <input class="form-control pozadina1" name="grad" type="text" value="" placeholder="Grad" />
                     </div>
                     <div class="col-lg-3">
-                        <input class="form-control" name="drzava" type="text" value="" placeholder="Država" />
+                        <input class="form-control pozadina1" name="drzava" type="text" value="" placeholder="Država" />
                     </div>
                      
                 </div>
@@ -153,7 +153,7 @@
                      <div class="col-lg-2"></div>
                     <label class="col-lg-2 col-form-label form-control-label pozadina2"><b>Username</b></label>
                     <div class="col-lg-8">
-                        <input class="form-control" name="username" type="text" value="" placeholder="Username" />
+                        <input class="form-control pozadina1" name="username" type="text" value="" placeholder="Username" />
                     </div>
                      
                 </div>
@@ -161,7 +161,7 @@
                      <div class="col-lg-2"></div>
                     <label class="col-lg-2 col-form-label form-control-label pozadina2"><b>Lozinka</b></label>
                     <div class="col-lg-8">
-                        <input class="form-control" name="password" type="password" required placeholder="Unesite vašu lozinku" />
+                        <input class="form-control pozadina1" name="password" type="password" required placeholder="Unesite vašu lozinku" />
                     </div>
                      
                 </div>
@@ -169,7 +169,7 @@
                      <div class="col-lg-2"></div>
                     <label class="col-lg-2 col-form-label form-control-label pozadina2"><b>Potvrdi lozinku</b></label>
                     <div class="col-lg-8">
-                        <input class="form-control" name="password2" type="password" required placeholder="Ponovite vašu lozinku" />
+                        <input class="form-control pozadina1" name="password2" type="password" required placeholder="Ponovite vašu lozinku" />
                     </div>
                     
                 </div>
@@ -182,10 +182,15 @@
                     </div>
                      
                 </div>
+                <div class="row">
+                        <div class="col odmak-gore"></div>
+                    </div>
             </form>
         </div>
         
-    </div>
+      </div>
+  </div>   <!-- #/ bijela unutarnja kartica - kraj -->
+   <div class="odmak-gore"></div>
 </div>
 
     </div>  <!--#/ Profil korisnika  -->
@@ -203,12 +208,14 @@
      <div class="row">
 
       <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
+       <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
         <h5 class="text-uppercase font-weight-bold">Naše podružnice</h5>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
-          repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis</p>
+        <hr>
+        <p>RIJEKA - Morski put 71<br>
+        ZAGREB - Belinova 23<br>
+      </p>
 
       </div>
       <!-- Grid column -->

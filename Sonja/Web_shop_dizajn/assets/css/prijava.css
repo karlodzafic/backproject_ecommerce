@@ -42,7 +42,11 @@
 	text-shadow:none;
 	outline:0!important
 }
-.login-clean form .btn-primary:active,.login-clean form .btn-primary:hover{background:#eb3b60}.login-clean form .btn-primary:active{transform:translateY(1px)}.login-clean form .forgot{display:block;text-align:center;font-size:12px;color:#6f7a85;opacity:.9;text-decoration:none}.login-clean form .forgot:active,.login-clean form .forgot:hover{opacity:1;text-decoration:none}
+.login-clean form .btn-primary:active,.login-clean form .btn-primary:hover{background:#eb3b60}
+.login-clean form .btn-primary:active{transform:translateY(1px)}
+.login-clean form .forgot{display:block;text-align:center;font-size:12px;color:#6f7a85;opacity:.9;text-decoration:none}
+.login-clean form .forgot:active,.login-clean form 
+.forgot:hover{opacity:1;text-decoration:none}
 
 .poravnanje {
 	text-align: center;
