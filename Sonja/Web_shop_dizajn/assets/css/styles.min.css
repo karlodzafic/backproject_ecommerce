@@ -127,6 +127,9 @@ margin-right: auto;
 #boja {
 	background-color: #f5f3f3;
 }
+#boja2 {
+	background-color: #aec9ab;
+}
 
 .odmak-gore {
 	padding-top: 6rem;
@@ -166,6 +169,10 @@ margin-right: auto;
 
 #pozadina-kartice {
 	background-image: url(../Slike/proba_pozadine.jpg);
+}
+#pozadina-kartice2 {
+	background-image: url(../Slike/proba_pozadine2.png);
+	background-size: 100% 100%;
 }
 
  .pozadina2 {
