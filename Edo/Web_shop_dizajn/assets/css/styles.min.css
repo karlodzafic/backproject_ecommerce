@@ -1,4 +1,13 @@
 
+
+
+/* 
+----------------------
+	   NAVBAR 
+---------------------*/
+
+
+
 /* default */
 .navbar-form.navbar-left{width:39%}
 .navbar-form .input-group:last-child{width:100%}
@@ -29,7 +38,6 @@
 ul.nav a{
 
 margin-bottom: 0;
-
 
 }
 
@@ -94,45 +102,50 @@ margin-right: auto;
 
 
 
-/* PRODUCTS PAGE TEMPLATE */
 
 
-/* Boja pozadine u futeru (crna) gdje piše  Tim BATMAN */
+/* 
+----------------------
+	PRODUCTS_PAGE 
+---------------------*/
 
-.footer-copyright {
-	background-color: black !important;
+.udaljenost-gornja{
+  margin-top: 8% !important;
 }
 
-/* počinje odmah nakon <body> a završava ispod </footer> */
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
+.inner-edo{
+  overflow: hidden;
 }
 
-/* počinje odmah nakon <body> i  <div id="page-container"> a završava prije <footer> */
-#content-wrap {
-  padding-bottom: 28rem;    /* Footer height */
+.inner-edo img{
+  transition: all 1.5s ease;
 }
 
-#footer {
-  color: white !important;
-  background-color: #333333;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /*height:28rem;  Footer height (Ovaj dio ne treba)*/
+.inner:hover img{
+  transform: scale(1.1);
 }
 
-#boja {
-	background-color: #f5f3f3;
+/* huawei */
+
+.inner-hu{
+  overflow: hidden;
+}
+
+.inner-hu img{
+  transition: all 1.5s ease;
+}
+
+.inner-hu:hover img{
+  transform: scale(1.5);
 }
 
 
 
 
-
-/*proizvod detalj*/
+/* 
+----------------------
+	PRODUCT_DETAILS2 
+---------------------*/
 
 .detalji {
 	font-size: 20px;
@@ -155,11 +168,16 @@ margin-right: auto;
 	font-weight: bold;
 }
 
-
-
 .fiksna_duzina {
     width: 9rem !important;
 }
 .fiksna_duzina2 {
     width: 5rem !important;
 }
+
+#pozadina-kartice2 {
+    background-image: url(../Slike/poz.png);
+    background-size: 100% 100%;
+}
+
+
