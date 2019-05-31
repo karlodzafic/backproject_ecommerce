@@ -1,4 +1,4 @@
-
+﻿
 /* default */
 .navbar-form.navbar-left{width:39%}
 .navbar-form .input-group:last-child{width:100%}
@@ -418,7 +418,7 @@ margin-right: auto;
 }
 
 #pozadina-kartice2 {
-    background-image: url(../Slike/poz.png);
+    background-image: url(../images/poz.png);
     background-size: 100% 100%;
 }
 
