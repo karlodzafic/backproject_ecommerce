@@ -218,7 +218,7 @@ overflow-x: hidden;
  }
  /* Pozadina ispod natpisa  kod formi za unos u drugom stupcu (npr. kod profil korisnika) */
  .pozadina1{
- 	background-color: #eff0f2;
+ 	background-color: #ebe5e5 !important;
  }
 
 /* bijela unutarnja kartica - početak */
