@@ -1,0 +1,6 @@
+hello.
+
+Treba još u kodu obrisati ove stvari:
+
+Second Slide
+This is a description for the second slide
