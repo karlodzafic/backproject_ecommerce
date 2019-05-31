@@ -204,10 +204,10 @@ overflow-x: hidden;
 }
 
 #pozadina-kartice2 {
-	background-image: url(../images/poz.png);
+	background-image: url(/images/poz.png);
 	background-size: 100% 100%;
 }
-/* Pozadina ispod natpisa  kod formi za unos u prvom stupcu (npr. kod profil korisnika) */
+/* Pozadina ispod natpisa kod formi za unos u prvom stupcu (npr. kod profil korisnika) */
  .pozadina2 {
 	background-color: white;
 	opacity: 0.7;
@@ -418,7 +418,7 @@ margin-right: auto;
 }
 
 #pozadina-kartice2 {
-    background-image: url(../Slike/poz.png);
+    background-image: url("../images/poz.png");
     background-size: 100% 100%;
 }
 
